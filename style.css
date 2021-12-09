@@ -1,0 +1,125 @@
+body{
+    background-image: url(images/pattern-background-desktop.svg);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.card{
+    width: 454px;
+    height: 699px;
+    margin-top: 101px;
+    margin-left: 493px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 26px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2)
+}
+
+.foto{
+    width: 454px;
+    border-top-right-radius: 26px;
+    border-top-left-radius: 26px;
+    margin-left: 0%;
+    margin-top: 0px;
+}
+
+.order{
+    width: 41%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sub{
+    width: 70%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: hsl(224, 23%, 55%);
+}
+
+.price{
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%; 
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+}
+
+.plan{
+    margin-left: 15px;
+    width: 30%;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.icon{
+    padding-left: 20px;
+}
+
+.change{
+    width: 18%;
+    display: inline-block;
+    position: relative;
+    left: 55px;
+    bottom: 20px;
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+}
+
+.anual{
+    font-weight: 900;
+    position: relative;
+    top: 5px;
+}
+
+.dolar{
+    font-weight: 300;
+    position: relative;
+    bottom: 5px;
+    color: hsl(224, 23%, 55%);
+}
+
+.change:hover{
+    opacity: 0.8;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.pay{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color:hsl(245, 75%, 52%);
+    color: white;
+    border-radius: 10px;
+    height: 50px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.proc{
+    width: 50%;
+    position: relative;
+    left: 25%;
+    top:25%;
+}
+
+.pay:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.cancel{
+    text-align: center;
+    position: relative;
+    top: 35px;
+    color:hsl(224, 23%, 55%);
+}
+
+.cancel:hover{
+    color:black;
+    cursor: pointer;
+}
+
